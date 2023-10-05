@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Herrerne's Julefrokost 2023</title>
+</head>
+<body>
+    <div id="snow"></div>
+    <header>
+        <h1>Velkommen til Herrerne's Julefrokost 2023!</h1>
+    </header>
+    <section id="event-info">
+        <h2>Event Information</h2>
+        <p>Dato: [Dato]</p>
+        <p>Tid: [Tid]</p>
+        <p>Sted: [Sted]</p>
+    </section>
+    <section id="memories">
+        <h2>Mindernes Bog</h2>
+        <p>Del dine sjoveste og mest mindeværdige øjeblikke fra tidligere julefrokoster!</p>
+        <!-- Formular for at dele minder kan indsættes her -->
+    </section>
+    <section id="quiz">
+        <h2>Quiz og Spørgeskema</h2>
+        <p>Deltag i vores sjove quiz og del dine forventninger til aftenen!</p>
+        <!-- Link eller formular for quiz og spørgeskema kan indsættes her -->
+    </section>
+    <section id="rsvp">
+        <h2>RSVP</h2>
+        <p>Vi glæder os til at se dig! Bekræft venligst din deltagelse nedenfor:</p>
+        <!-- Formular for RSVP kan indsættes her -->
+    </section>
+    <footer>
+        <p>Tak for dit besøg! Vi glæder os til en fantastisk aften sammen!</p>
+    </footer>
+</body>
+</html>
