@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+header {
+    background-color: #d35400;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+section {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+footer {
+    background-color: #d35400;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#snow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    pointer-events: none;
+    background-image: url('snowflake.png');  /* Add your snowflake image here */
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+    0% { transform: translateY(-100%) translateX(-50%); }
+    100% { transform: translateY(100vh) translateX(-50%); }
+}
